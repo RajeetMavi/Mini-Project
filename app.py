@@ -54,6 +54,7 @@ def stop_recording():
         return {"status": "Recording stopped"}
     return {"status": "No recording in progress"}
 
-# Start the Flask app with SocketIO
+# Start the Flask app withSocketIO
 if __name__ == "__main__":
+
     socketio.run(app, debug=True)
