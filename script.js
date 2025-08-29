@@ -19,7 +19,7 @@ startButton.addEventListener('click', function() {
             statusDiv.textContent = "Status: Listening...";
             startButton.disabled = true;
             stopButton.disabled = false;
-            copyButton.disabled = true;  // Disable copy button while recording
+            copyButton.disabled = true;   // Disable copy button while recording
         }
     });
 });
@@ -61,4 +61,5 @@ copyButton.addEventListener('click', function() {
     // Optionally, display a message to let the user know it's copied
     alert("Text copied to clipboard!");
 });
+
 
